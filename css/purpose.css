@@ -1,0 +1,35 @@
+body{
+  margin:0;
+  background-color: #FFA3B5;
+  font-family: 'Roboto', sans-serif;
+}
+.image{
+  padding-top: 50px}
+
+  /* LOGO LINK */
+    .logo {
+        position: fixed;
+        top: 4px;
+        left: 15px;
+      }
+
+  /*NAV BAR*/
+    .navbarmain {
+      display: inline-block;
+      position: absolute;
+      top: 0px;
+      right: 1px;
+      padding-top: 35px;
+      padding-left: 10px;
+      padding-right: 20px;
+      transition: top 0.2s ease-in-out;
+      z-index: 1000;
+    }
+    .navbarmain a {
+      padding-top: 30px;
+      padding-left: 10px;
+      padding-right: 20px;
+    }
+    .navbarmain .icon {
+      display: none;
+      }
